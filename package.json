@@ -1,0 +1,25 @@
+{
+  "name": "html-in-pdf-out",
+  "version": "1.0.0",
+  "description": "DWIM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rreubenreyes/html-in-pdf-out.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rreubenreyes/html-in-pdf-out/issues"
+  },
+  "homepage": "https://github.com/rreubenreyes/html-in-pdf-out#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "commander": "^3.0.1",
+    "html-pdf": "^2.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}
