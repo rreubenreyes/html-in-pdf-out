@@ -1,0 +1,249 @@
+@media print {
+    div, section, table, tr, td {
+        page-break-inside: avoid !important;
+    }
+    #cdabody {
+        page-break-inside: avoid !important;
+    }
+}
+
+html {
+    zoom: 0.64999 !important;
+    font-family: sans-serif !important;
+}
+
+#ccdraw {
+    box-sizing: border-box;
+}
+
+#ccdraw .DUPLICATE, #ccdraw .DUPLICATE * {
+    background-color: rgba(180, 180, 180, .5) !important;
+    color: #777 !important;
+    display: none !important;
+}
+
+html{
+    margin:0;
+}
+
+body {
+    margin: 10px 25px;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+    -webkit-font-smoothing: antialiased;
+}
+
+body #ccdraw {
+    color: #45494E;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.6 !important;
+    font-size: 9.6pt;
+    margin:0;
+    padding: 0;
+}
+
+#ccdraw article {
+    margin-top: 3em;
+}
+
+#ccdraw div {
+    font-family: "Segoe UI","Open Sans",Arial,"Trebuchet MS",sans-serif;
+}
+#ccdraw a {
+    color: #003366;
+    background-color: #FFFFFF;
+}
+
+#ccdraw p.h1{
+    font-size:2em;
+    font-weight: bold;
+}
+#ccdraw p.secth3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+    color:#1f8dd6;
+    white-space:nowrap;
+    overflow:hidden;
+}
+#ccdraw div.sectiontext{
+    margin-top:0.5em;
+    clear:both;
+}
+#ccdraw #tocdiv .pure-button{
+    font-size:9.6pt;
+    margin-right:2px;
+}
+#ccdraw h4 {
+    font-size: 1em;
+    font-weight: bold;
+}
+#ccdraw table {
+    border-collapse: collapse;
+    font-family: "Open Sans",Arial,"Trebuchet MS",Verdana,Tahoma,sans-serif;
+    font-size: inherit;
+    line-height: 10pt;
+}
+#ccdraw #viewcda td,
+#ccdraw #viewcda th,
+#ccdraw #viewcda th.narr_th{
+    padding: 0.25em;
+    vertical-align: top;
+    border:1px solid white;
+}
+/*Turn on for table sorting
+ * th.narr_th{
+ *  cursor:ns-resize;
+ *  }
+ *  th.narr_th:hover{
+ *      cursor:ns-resize;
+ *          border:1px solid #E3F4FF;
+ *              background:#E3F4FF;
+ *              }
+ *
+ *              */
+    #ccdraw .h1center {
+        font-weight: bold;
+        text-align: center;
+    }
+    #ccdraw .header_table{
+        border: 1pt inset #00008b;
+    }
+    #ccdraw .narr_table {
+        width: 100%;
+    }
+    #ccdraw .narr_tr {
+        background-color: white;
+    }
+
+    #ccdraw .narr_tr .td {
+        border: none;
+    }
+
+    #ccdraw .narr_tr .td {
+        border: none;
+    }
+
+    #ccdraw .narr_th {
+        background-color: white;
+        text-align: left;
+    }
+    #ccdraw .td_label{
+        font-weight: bold;
+        color: white;
+    }
+
+    #ccdraw .section {
+        border:1px solid #BFE6FF;
+        display:inline-block;
+        /*width:30em;*/
+        margin:0;
+        background:white;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+        page-break-after: always;
+    }
+    #ccdraw div.recordTarget{
+        cursor:default;
+    }
+
+    @media (min-width:400px){
+        #ccdraw .section{
+            width:99%;
+        }
+    }
+
+    #ccdraw .packery-drop-placeholder {
+        background:white;
+        outline: 3px dashed hsla(0, 0%, 0%, 0.5);
+        outline-offset: -6px;
+        -webkit-transition: -webkit-transform 0.2s;
+        transition: transform 0.2s;
+    }
+    #ccdraw div.section_in{
+        padding:2px;
+        border:3px solid transparent;
+    }
+    #ccdraw div.section_in:hover,div.sectionhover{
+        border:3px solid #BFE6FF;
+    }
+    #ccdraw div.controls{
+        float:right;
+        clear:right;
+        cursor:pointer;
+        display:none;
+    }
+    #ccdraw i.btn{
+        border-radius:0.25em;
+        padding:0.2em;
+        border: 1px solid #BFE6FF;
+        width:1.5em;
+    }
+    #ccdraw .tocul {
+        padding-left: 0;
+        margin:0;
+        margin-left: 0.5em;
+        list-style-type: none;
+        padding-right:0.5em;
+    }
+    #ccdraw .toc{
+        margin-bottom:0.25em;
+        overflow:hidden;
+        text-align:left;
+    }
+    #ccdraw #tocdiv{
+        display: none; /* added by tarek */
+        float:right;
+        clear:right;
+        border-right:none;
+        background:#BFE6FF;
+    }
+    #ccdraw div.fadehighlight{
+        border:1px solid red;
+        border:3px solid #BFE6FF;
+        font-weight:bold;
+        z-index:1;
+        background:#BFE6FF;
+    }
+    #ccdraw .tocX .fa-arrow-up{
+        float:right;
+    }
+    /*border: 1px solid #1f8dd6; */
+    /* box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(100, 100, 100, 0.3);*/
+    #ccdraw span.tocup,span.tocdown{
+        padding:0.5em;
+    }
+    #ccdraw .intelsoft{
+        display:block;width:100%;padding-left:1em;float:left;font-weight:bold;
+        color:#1f8dd6;
+        font-size:1em;padding-top:0.2em;padding-bottom:0.5em;text-decoration:none;
+        background:white;
+        border-top:2px solid transparent;
+        margin-top:0.5em;
+    }
+    #ccdraw .intelsoft:hover{
+        border-top:2px solid #1f8dd6;
+    }
+    #ccdraw .intelsoft:hover::after{
+        content:' http://intelsoft.com.au ';
+        float:right;
+        padding-right:1em;
+    }
+    #ccdraw #cdabody{
+        padding-left:0.5em;
+    }
+    #ccdraw i.thumb{
+        float:left;padding:0.25em;margin-top:-0.4em;margin-left:-0.4em;background:white;margin-right:0.25em;font-size:1.5em;border-radius:10px;
+        border-top:2px solid #BFE6FF;border-left:2px solid #BFE6FF;color:#1f8dd6;
+    }
+    #ccdraw tr.duplicatefirst{
+        background:white;
+    }
+    #ccdraw tr.duplicate{
+        background:white;
+        display:none;
+    }
+    #ccdraw textarea{
+        border:1px solid #999;
+    }
